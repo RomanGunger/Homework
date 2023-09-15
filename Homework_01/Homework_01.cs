@@ -20,29 +20,45 @@
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-Console.WriteLine("Input a number 1");
-int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input a number 1");
+// int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Input a number 1");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input a number 1");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Input a number 1");
-int num3 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input a number 1");
+// int num3 = Convert.ToInt32(Console.ReadLine());
 
-if(num1 > num2)
-{
-    if(num1 > num3)
-        Console.WriteLine($"Highest number is {num1}");
-    else
-        Console.WriteLine($"Highest number is {num3}");
-}
+// if(num1 > num2)
+// {
+//     if(num1 > num3)
+//         Console.WriteLine($"Highest number is {num1}");
+//     else
+//         Console.WriteLine($"Highest number is {num3}");
+// }
+// else
+// {
+//     if(num2 > num3)
+//         Console.WriteLine($"Highest number is {num2}");
+//     else
+//         Console.WriteLine($"Highest number is {num3}");
+// }
+
+
+
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт,
+//является ли число чётным (делится ли оно на два без остатка).
+
+Console.WriteLine("Input a number");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if(num%2 == 0)
+    Console.WriteLine($"Number {num} is even");
 else
-{
-    if(num2 > num3)
-        Console.WriteLine($"Highest number is {num2}");
-    else
-        Console.WriteLine($"Highest number is {num3}");
-}
+    Console.WriteLine($"Number {num} is NOT even");
 
+
+//    
 
 
